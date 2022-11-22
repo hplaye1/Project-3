@@ -61,7 +61,7 @@
           rgba(223, 255, 0, 0.75),
           rgba(223, 255, 0, 0.75)
         ),
-        url(../img/heart-water-splash.jpeg);
+        url(../img/bubbles.jpeg);
       padding-top: 150px;
       padding-bottom: 150px;
       background-position: center;
@@ -71,20 +71,20 @@
     }
   
   
-  .hippocampus-social-link:hover {
+  .headshot-social-link:hover {
     border: 1px solid black;
   }
   
-  .hippocampus-social-links {
+  .headshot-social-links {
     display: flex;
     gap: 16px;
   }
   
-  .hippocampus-social-link-image {
+  .headshot-social-link-image {
     width: 32px;
   }
   
-  .hippocampus-team-list {
+  .headshot-team-list {
     padding-left: 0;
     list-style-type: none;
     display: grid;
@@ -93,12 +93,12 @@
   }
   
   @media (max-width: 999px) {
-    .hippocampus-team-list {
+    .headshot-team-list {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
   }
   
-  .hippocampus-team-list a {
+  .headshot-team-list a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,15 +106,15 @@
     text-decoration: none;
   }
   
-  .hippocampus-team-list a:hover {
+  .headshot-team-list a:hover {
     filter: grayscale(0);
   }
   
-  .hippocampus-team-list p {
+  .headshot-team-list p {
     font-size: 20px;
   }
   
-  .hippocampus-contact-form {
+  .headshot-contact-form {
     border: 1px solid black;
     padding: 20px;
     border-radius: 20px;
@@ -122,12 +122,12 @@
     margin-bottom: 32px;
   }
   
-  .hippocampus-footer-wrapper {
+  .headshot-footer-wrapper {
     padding-top: 32px;
     border-top: 1px solid black;
   }
   
-  .hippocampus-footer {
+  .headshot-footer {
     display: flex;
     justify-content: space-between;
   }
