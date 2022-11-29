@@ -16,11 +16,21 @@
     background-color: lightgray;
   }
   
+
+
   img {
     width: 100%;
     height: auto;
   }
   
+  body {
+    color: rgb(66,46,87);
+    font-family: 'Raleway', cursive;
+    background:
+  }
+
+
+
   /* HEADER */
   .sidebar-demo-container {
     display: grid;
