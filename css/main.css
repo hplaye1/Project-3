@@ -22,40 +22,40 @@
   }
   
   /* HEADER */
-  .sidebar-header-wrapper,
-  .sidebar-main-content-wrapper,
-  .sidebar-footer-wrapper {
+  .headshot-header-wrapper,
+  .headshot-main-content-wrapper,
+  .headshot-footer-wrapper {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
   
-  .sidebar-header {
+  .headshot-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .sidebar-logo {
+  .headshot-logo {
     width: 130px;
   }
   
-  .sidebar-main-nav {
+  .headshot-main-nav {
     display: flex;
     gap: 16px;
   }
   
-  .sidebar-main-nav a {
+  .headshot-main-nav a {
     text-decoration: none;
     color: #e20df0;
     transition: all ease .25s;
   }
   
-  .sidebar-main-nav a:hover {
+  .headshot-main-nav a:hover {
     color: black;
   }
   
-  .sidebar-intro {
+  .headshot-intro {
       background:
         linear-gradient(
           rgba(223, 255, 0, 0.75),
@@ -71,20 +71,20 @@
     }
   
   
-  .sidebar-social-link:hover {
+  .headshot-social-link:hover {
     border: 1px solid black;
   }
   
-  .sidebar-social-links {
+  .-social-links {
     display: flex;
     gap: 16px;
   }
   
-  .sidebar-social-link-image {
+  .headshot-social-link-image {
     width: 32px;
   }
   
-  .sidebar-team-list {
+  .headshot-team-list {
     padding-left: 0;
     list-style-type: none;
     display: grid;
@@ -93,12 +93,12 @@
   }
   
   @media (max-width: 999px) {
-    .sidebar-team-list {
+    .headshot-team-list {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
   }
   
-  .sidebar-team-list a {
+  .headshot-team-list a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,15 +106,15 @@
     text-decoration: none;
   }
   
-  .sidebar-team-list a:hover {
+  .headshot-team-list a:hover {
     filter: grayscale(0);
   }
   
-  .sidebar-team-list p {
+  .headshot-team-list p {
     font-size: 20px;
   }
   
-  .sidebar-contact-form {
+  .headshot-contact-form {
     border: 1px solid black;
     padding: 20px;
     border-radius: 20px;
@@ -122,12 +122,12 @@
     margin-bottom: 32px;
   }
   
-  .sidebar-footer-wrapper {
+  .headshot-footer-wrapper {
     padding-top: 32px;
     border-top: 1px solid black;
   }
   
-  .sidebar-footer {
+  .headshot-footer {
     display: flex;
     justify-content: space-between;
   }
