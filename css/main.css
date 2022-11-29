@@ -22,13 +22,11 @@
   }
   
   /* HEADER */
-  .headshot-header-wrapper,
-  .headshot-main-content-wrapper,
-  .headshot-footer-wrapper {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .sidebar-demo-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    height: 100vh;
+}
   
   .headshot-header {
     display: flex;
