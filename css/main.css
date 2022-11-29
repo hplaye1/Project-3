@@ -48,7 +48,7 @@
   
 }
 
-headshot-intro {
+.headshot-intro {
   background: linear-gradient( rgba(223, 255, 0, 0.75), rgba(223, 255, 0, 0.75) ), url(../img/bubbles.jpeg);
   padding-top: 150px;
   padding-bottom: 150px;
