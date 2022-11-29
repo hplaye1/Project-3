@@ -35,6 +35,12 @@
   padding: 16px;
   text-decoration: none;
   display: block;
+
+}
+
+.sidebar-demo-content {
+  padding-left: 20px;
+  overflow-y: scroll;
 }
   .headshot-header {
     display: flex;
