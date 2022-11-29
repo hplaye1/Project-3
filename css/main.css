@@ -30,7 +30,12 @@
 .sidebar-demo-sidenav {
   background-color: #111;
 }
-  
+.sidebar-demo-sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
   .headshot-header {
     display: flex;
     justify-content: space-between;
