@@ -27,6 +27,9 @@
     grid-template-columns: 200px 1fr;
     height: 100vh;
 }
+.sidebar-demo-sidenav {
+  background-color: #111;
+}
   
   .headshot-header {
     display: flex;
