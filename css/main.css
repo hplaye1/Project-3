@@ -35,10 +35,8 @@
   padding: 16px;
   text-decoration: none;
   display: block;
-
+  
 }
-
-
   .headshot-header {
     display: flex;
     justify-content: space-between;
