@@ -51,7 +51,7 @@
 .headshot-intro {
   background: url(../img/nicebackground.jpeg);
   padding-top: 379px;
-  padding-bottom: 150px;
+  padding-bottom: 311px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -86,7 +86,7 @@
       background:
         url(../img/nicebackground.jpeg);
       padding-top: 379px;
-      padding-bottom: 150px;
+      padding-bottom: 311px;
       background-position: center;
       background-size: cover;
       display: flex;
