@@ -49,7 +49,7 @@
 }
 
 .headshot-intro {
-  background: linear-gradient( rgba(223, 255, 0, 0.75), rgba(223, 255, 0, 0.75) ), url(../img/nicebackground.jpeg);
+  background: url(../img/nicebackground.jpeg);
   padding-top: 150px;
   padding-bottom: 150px;
   background-position: center;
