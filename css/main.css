@@ -46,7 +46,16 @@
   text-decoration: none;
   display: block;
 }
+.sidebar-demo-content {
+    background: url(../img/nicebackground.jpeg);
+    padding-top: 379px;
+    padding-bottom: 311px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 
+}
 
 
 
