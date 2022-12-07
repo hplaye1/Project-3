@@ -97,15 +97,7 @@
       justify-content: center;
     }
 
-    .sidebar-demo-content {
-      background: url(../img/nicebackground.jpeg);
-      padding-top: 379px;
-      padding-bottom: 311px;
-      background-position: center;
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-  }
+    
   
   
   .headshot-social-link:hover {
@@ -162,7 +154,7 @@
   
   .headshot-footer-wrapper {
     padding-top: 50px;
-    border-top: 34px solid black;
+    border-top: 34px solid transparent;
   }
   
   .headshot-footer {
