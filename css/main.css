@@ -26,7 +26,13 @@
   body {
     color: white;
     font-family: 'Raleway', cursive;
-    background:
+    background: url(../img/okbackground.jpeg);
+    padding-top: 379px;
+    padding-bottom: 311px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -45,12 +51,6 @@
   padding: 16px;
   text-decoration: none;
   display: block;
-  
-}
-
-.sidebar-demo-content {
-  display: flex
-  justify-content: center;
 }
 
 
