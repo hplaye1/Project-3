@@ -48,6 +48,16 @@
   
 }
 
+.sidebar-demo-content {
+  display: flex
+  justify-content: center;
+}
+
+
+
+
+
+
 .headshot-intro {
   background: url(../img/nicebackground.jpeg);
   padding-top: 379px;
