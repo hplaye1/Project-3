@@ -202,11 +202,4 @@
     background: black;
   }
   
-  .hippocampus-feature-content {
-    display: flex;
-    gap: 40px;
-  }
-  
-  .hippocampus-feature-image {
-    max-width: 250px;
-  }
+ 
