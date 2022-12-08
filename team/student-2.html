@@ -16,8 +16,8 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   <meta name="theme-color" content="#fafafa">
   <meta name="theme-color" content="#fafafa">
@@ -25,27 +25,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;1,100;1,400;1,600&display=swap" rel="stylesheet">
 </head>
+</head>
 
 <body>
   <!-- Place your site's HTML here -->
   <div class="sidebar-demo-container">
-    <div class="sidebar-demo-sidenav">
-        <a href="./index.html">Home</a>
-        <a href="./about.html">About</a>
-        <a href="./team.html">Projects</a>
-        <a href="./contact.html">Contact</a>
+      <nav class="sidebar-demo-sidenav">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../team.html">Projects</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </header>
   </div>
   <div class="hippocampus-main-content-wrapper">
     <main class="hippocampus-main-content">
-      <div class="contact-intro">
-      <h1>New Shoes</h1>
-      <form class="hippocampus-contact-form" action="">
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="name" value=""><br>
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" value=""><br><br>
-        <input type="submit" value="Submit">
-      </form>
+      <!-- row 1 -->
+      <div class="hippocampus-feature-content">
+        <img class="hippocampus-feature-image" src="../img/giz2.jpg" alt="">
+        <div class="hippocampus-feature-meta">
+          <h1 class="hippocampus-feature-title">New Shoes</h1>
+          <p class="hippocampus-feature-caption">The original</p>
+        </div>
+      </div>
+      <!-- row 2 -->
+      <div class="hippocampus-feature-description">
+        <p>Spicy jalapeno bacon ipsum dolor amet ball tip ullamco adipisicing short loin short ribs in dolor esse kielbasa ribeye meatloaf jowl. Incididunt t-bone culpa shankle tenderloin proident tail ex esse spare ribs sirloin minim deserunt. Jerky ut ball tip dolore, chislic non pig short ribs ham burgdoggen aliquip. Short loin ham anim in cupidatat pariatur esse ex ut chislic beef ribs elit jerky. Aliquip beef pork loin, adipisicing biltong frankfurter mollit short loin meatball veniam duis landjaeger pastrami. Spare ribs rump non, elit pancetta consequat picanha cillum ham.</p>
+        <p>Nostrud cillum laboris shoulder reprehenderit et dolor frankfurter magna meatloaf. Prosciutto sirloin est, ribeye brisket cillum proident excepteur shoulder pancetta non aliquip cow meatball. Ham hock tail laborum pig aliqua aute ad pancetta anim deserunt ut rump beef. Kevin et tri-tip, bacon hamburger magna dolore pork alcatra dolor ut sunt. Consequat short loin tenderloin, chuck voluptate magna shoulder ea ham hock in kevin swine ad labore. Tempor in spare ribs shoulder, andouille reprehenderit irure t-bone ham hock. Strip steak boudin id pancetta, alcatra cupidatat laboris ullamco.</p>
+      </div>
+      <!-- row 3 -->
+      <div class="hippocampus-feature-images">
+        <img src="../img/giz2.jpg" alt="">
+        <img src="../img/giz2.jpg" alt="">
+        <img src="../img/giz2.jpg" alt="">
+        <img src="../img/giz2.jpg" alt="">
+      </div>
     </main>
   </div>
   <div class="headshot-footer-wrapper">
@@ -67,4 +81,3 @@
 </body>
 
 </html>
-
