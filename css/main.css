@@ -193,14 +193,6 @@
     border-radius: 20px;
     background: black;
   }
-  .student-1-intro {
-    background:
-    url(../img/nicebackground.jpeg);
-  padding-top: 2px;
-  padding-bottom: 480px;
-  background-position: center;
-  background-size: cover;
-  }
   .hippocampus-feature-content {
     display: flex;
     gap: 40px;
@@ -208,5 +200,13 @@
   
   .hippocampus-feature-image {
     max-width: 250px;
+  }
+  .student-1-intro {
+    background:
+    url(../img/nicebackground.jpeg);
+  padding-top: 2px;
+  padding-bottom: 480px;
+  background-position: center;
+  background-size: cover;
   }
   
