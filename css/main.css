@@ -195,3 +195,18 @@
   background-position: center;
   background-size: cover;
   }
+  .hippocampus-contact-form {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+  }
+  
+  .hippocampus-feature-content {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .hippocampus-feature-image {
+    max-width: 250px;
+  }
